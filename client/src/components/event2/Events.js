@@ -137,7 +137,12 @@ class Events extends React.Component {
             </a>
           </div>
         </div>
-        <div className="slider-child child6">
+        <div
+          className="slider-child child6"
+          onClick={() => {
+            history.push(match.url + "/prefest");
+          }}
+        >
           <video className="video" autoPlay loop muted>
             <source src={online_vid} type="video/mp4" />
           </video>

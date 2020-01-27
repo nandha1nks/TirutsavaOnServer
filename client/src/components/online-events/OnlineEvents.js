@@ -13,14 +13,7 @@ class OnlineEvents extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      events: [
-        { evenId: 2, name: "Andhadhun" },
-        { evenId: 2, name: "Andhadhun" },
-        { evenId: 2, name: "Andhadhun" },
-        { evenId: 2, name: "Andhadhun" },
-        { evenId: 2, name: "Andhadhun" },
-        { evenId: 2, name: "Andhadhun" }
-      ],
+      events: [],
       route: "home"
     };
   }
